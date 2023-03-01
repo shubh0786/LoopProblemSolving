@@ -12,6 +12,28 @@ namespace LoopPro3
     {
         static void Main(string[] args)
         {
+
+            int sum = 0;
+
+            Console.WriteLine("Please enter your prefered number");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("your number is {0}", n);
+
+
+            for (int i=0; i<=n; i++)
+            {
+
+                Console.WriteLine("First n numbers are {0}", i);
+
+                sum+= i;
+
+             
+            }
+
+            Console.WriteLine("sum of n number upto {0} terms : = {1}", n, sum);
+
+            Console.ReadLine();
         }
     }
 }
