@@ -17,11 +17,11 @@ namespace LoopPro4
             double avg;
 
 
-            Console.Write("Please write ten numbers one by one");
+            Console.WriteLine("Please write 3 numbers one by one\n");
 
-            Console.WriteLine("Please enter ten numbers");
+            Console.WriteLine("Please enter 3 numbers\n");
 
-            for ( i = 1; i <=10; i++)
+            for ( i = 1; i <=3; i++)
             {
 
                 Console.Write("Number-{0} :", i);
@@ -33,7 +33,7 @@ namespace LoopPro4
             }
 
             avg=sum/10.0;
-            Console.Write("Following are the number sum : {0} and its average is {1}",sum,avg);
+            Console.Write("Following are the number sum : {0} \n and its average is {1}",sum,avg);
 
             Console.ReadLine();
         }
