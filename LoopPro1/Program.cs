@@ -13,7 +13,7 @@ namespace LoopPro1
         static void Main(string[] args)
         {
             int i;
-            int t;
+         
             
 
             Console.WriteLine("Following are the first natural");
